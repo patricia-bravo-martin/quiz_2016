@@ -25,6 +25,10 @@ module.exports = function(sequelize, DataTypes) {
         isAdmin: {
             type: DataTypes.BOOLEAN,
             defaultValue: false
+        },
+       expira: {
+            type: DataTypes.FLOAT,
+             defaultValue: 0
         }
       },
       { instanceMethods: {
